@@ -17,7 +17,7 @@ public class PointApp {
 		Point p03=new Point(10);
 		p03.setY(10);
 		//p03.setX(3);
-		p03.draw();
+		p03.draw(false);
 		
 		//Point p04=new Point(100);
 	}

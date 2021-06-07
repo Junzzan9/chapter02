@@ -40,8 +40,18 @@ public class Point {
 	}
 	
 	//메소드 일반//
+	
 	public void draw() {
 		System.out.println("점 [x="+x+", y="+y+"]을(를) 그렸습니다.");
+	}
+	public void draw(boolean flag) {
+		
+		if(flag==true) {
+			System.out.println("점 [x="+x+", y="+y+"]을(를) 그렸습니다.");
+		}
+		else {
+			System.out.println("점 [x="+x+", y="+y+"]을(를) 지웠습니다.");
+		}
 				
 	}
 	
