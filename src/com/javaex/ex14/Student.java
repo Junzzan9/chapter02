@@ -14,8 +14,19 @@ public class Student extends Person{
 		this.schoolName= schoolName;
 	}
 	
+	/* 부모의 person(2)사용
 	public Student(String name,int age,String schoolName) {
-		//super(name,age);
+		super(name,age);
+		this.schoolName= schoolName;
+		System.out.println("student(3)");
+	}
+	*/
+	
+	
+	//부모의 ()사용
+	public Student(String name,int age,String schoolName) {
+		super.setName(name);
+		super.setAge(age);
 		this.schoolName= schoolName;
 		System.out.println("student(3)");
 	}

@@ -21,7 +21,7 @@ public class PersonApp {
 		Student s03=new Student();
 		System.out.println(s03);
 		 */
-		
+
 		
 	}
 
