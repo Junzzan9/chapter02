@@ -35,9 +35,10 @@ public abstract class Shape {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 	
+	/*
 	public void draw() {
 		System.out.println("[면색:"+fillColor+", 선색:"+lineColor+"] 도형을 그렸습니다.");
-	}
+	}*/
 	
 	public abstract double area();
 	
